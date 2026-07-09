@@ -4,6 +4,8 @@
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.2+-orange.svg)
 ![Pandas](https://img.shields.io/badge/pandas-2.0+-yellow.svg)
 
+🌐 **Acesse a Aplicação Online:** [https://tc-churn-prediction.streamlit.app/](https://tc-churn-prediction.streamlit.app/)
+
 ## 📌 Objetivo
 Prever o cancelamento (churn) de clientes de uma operadora de telecomunicações utilizando técnicas de Machine Learning. Identificar clientes com alta probabilidade de cancelamento permite que a empresa atue de forma proativa para retê-los.
 
@@ -22,6 +24,7 @@ O conjunto de dados utilizado é o **Telco Customer Churn Dataset**, disponível
 ├── data/
 │   ├── processed/         # Dados limpos e processados
 │   └── raw/               # Dados originais (imutáveis)
+├── models/                # Modelos treinados salvos (.joblib)
 ├── notebooks/             # Notebooks Jupyter para experimentação
 │   ├── 01_eda.ipynb       # Análise Exploratória de Dados
 │   ├── 02_preprocessing.ipynb # Limpeza e preparação dos dados
@@ -32,6 +35,7 @@ O conjunto de dados utilizado é o **Telco Customer Churn Dataset**, disponível
 ├── reports/
 │   └── figures/           # Gráficos gerados
 ├── app.py                 # Dashboard Streamlit de Previsão
+├── train_final_model.py   # Script para treinar o modelo
 ├── README.md              # Este arquivo
 └── requirements.txt       # Dependências do projeto
 ```
